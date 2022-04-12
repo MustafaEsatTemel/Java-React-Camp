@@ -1,0 +1,13 @@
+package me.mustafaesattemel.dataAccess.abstracts;
+
+import java.util.List;
+
+import me.mustafaesattemel.entities.concretes.User;
+
+public interface UserDao {
+
+	void add(User user);
+	void update(User user);
+	void delete(User user);
+	List<User> getAll();
+}
